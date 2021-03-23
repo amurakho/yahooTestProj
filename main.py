@@ -164,14 +164,15 @@ class DataEngine:
 
 
 def main():
-    parser = NewsParser()
-    engine = DataEngine()
-
-    for company in COMPANIES:
-        engine.manage(company)
-
-        parser.manage(company)
-        logging.info(f'Finish work with {company}')
+    pass
+    # parser = NewsParser()
+    # engine = DataEngine()
+    #
+    # for company in COMPANIES:
+    #     engine.manage(company)
+    #
+    #     parser.manage(company)
+    #     logging.info(f'Finish work with {company}')
 
 
 if __name__ == '__main__':
